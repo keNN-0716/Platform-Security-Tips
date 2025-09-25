@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Platform Securiy Tips</title>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Rajdhani:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link href="templatemo-electric-xtra.css" rel="stylesheet">
+
+</head>
+<body>
+    <!-- Animated Grid Background -->
+    <div class="grid-bg"></div>
+    <div class="gradient-overlay"></div>
+    <div class="scanlines"></div>
+
+    <!-- Animated Shapes -->
+    <div class="shapes-container">
+        <div class="shape shape-circle"></div>
+        <div class="shape shape-triangle"></div>
+        <div class="shape shape-square"></div>
+    </div>
+
+    <!-- Floating Particles -->
+    <div id="particles"></div>
+
+    <!-- Navigation -->
+    <nav id="navbar">
+        <div class="nav-container">
+            <a href="#home" class="logo-link">
+                <svg class="logo-svg" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
+                    <defs>
+                        <linearGradient id="logoGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                            <stop offset="0%" style="stop-color:#FF5E00;stop-opacity:1" />
+                            <stop offset="100%" style="stop-color:#00B2FF;stop-opacity:1" />
+                        </linearGradient>
+                    </defs>
+                    <polygon points="20,2 38,14 38,26 20,38 2,26 2,14" fill="none" stroke="url(#logoGradient)" stroke-width="2"/>
+                    <polygon points="20,8 32,16 32,24 20,32 8,24 8,16" fill="url(#logoGradient)" opacity="0.3"/>
+                    <circle cx="20" cy="20" r="3" fill="url(#logoGradient)"/>
+                </svg>
+                <span class="logo-text">PLATFROM SECURITY TIPS</span>
+            </a>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#features" class="nav-link">Key Topics</a></li>
+                <li><a href="#about" class="nav-link">Conclusion</a></li>
+                <li><a href="#contact" class="nav-link">References</a></li>
+            </ul>
+            <div class="menu-toggle" id="menuToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <div class="text-rotator">
+                <div class="text-set active">
+                    <h1 class="glitch-text" data-text="PST">PLATFORM SECURITY TIPS</h1>
+                    <p class="subtitle">Welcome to Platform Security Tips</p>
+                </div>
+                <div class="text-set">
+                    <h1 class="glitch-text" data-text="G6">GROUP 6</h1>
+                    <p class="subtitle">Welcome to Platform Security Tips</p>
+                </div>
+            </div>
+        </div>
+        <div class="cta-container">
+            <a href="#features" class="cta-button cta-primary">Get Started</a>
+            <a href="#about" class="cta-button cta-secondary">Summary</a>
+        </div>
+    </section>
+
+    <!-- Features Section with Tabs -->
+    <section class="features" id="features">
+        <h2 class="section-title">All About Platform Security</h2>
+        <div class="features-container">
+            <div class="feature-tabs">
+                <div class="tab-item active" data-tab="platformsec">
+                    <span class="tab-icon">⚡</span>
+                    <span>What is Platform Security</span>
+                </div>
+                <div class="tab-item" data-tab="device">
+                    <span class="tab-icon">🔒</span>
+                    <span>How Platform Security helps your device</span>
+                </div>
+                <div class="tab-item" data-tab="os">
+                    <span class="tab-icon">🌐</span>
+                    <span>Operating Systems signed for Platform Security</span>
+                </div>
+                <div class="tab-item" data-tab="malware">
+                    <span class="tab-icon">🛡️</span>
+                    <span>Different Types of Malwares and Cyber Threats to Avoid</span>
+                </div>
+                <div class="tab-item" data-tab="SecPlatform">
+                    <span class="tab-icon">🔧</span>
+                    <span>What is Security Platform</span>
+                </div>
+                <div class="tab-item" data-tab="networkandcloud">
+                    <span class="tab-icon">🤖</span>
+                    <span>Network and Cloud Security</span>
+                </div>
+                <div class="tab-item" data-tab="virtualbox">
+                    <span class="tab-icon">👾</span>
+                    <span>What is a Virtual Machine?</span>
+                </div>
+            </div>
+            <div class="feature-content">
+                <div class="content-panel active" id="platformsec">
+                    <h3>What is Platform Security</h3>
+                    <p><strong>Platform Security</strong></p>
+                    <p>Platform security is differentiated from layered security approaches where each layer or system had to manage its own security.
+                    Platform security systems instead secure the entire IT platform centrally,
+                    thus securing each layer in an IT environment along with the component pieces of each layer.</p>
+                    <p>Platform security often rely on a unified bundle of hardware and software 
+                    that protect both traditional IT infrastructure and software-defined hardware, storage, and network 
+                    components along with the operating systems and applications that reside on those platforms. 
+                    Platform security reduces or eliminates the need for multiple point security products, 
+                    which also reduces the burden of managing and maintaining multiple security solutions for the platform.</p>
+                </div>
+                <div class="content-panel" id="device">
+                    <h3>How Platform Security helps your device</h3>
+                    <p><strong>How it protcts your data and hardware?</strong></p>
+                    <p>Platform security protects a device's hardware, software, and data from threats by using methods like encryption, firewalls, access controls, and regular updates. 
+                    It provides a comprehensive, layered defense, enhancing data confidentiality and integrity, minimizing risks of breaches, 
+                    improving threat detection speed, and maintaining device and business continuity against a wide range of attacks. </p>
+                    <p><strong>Why is it important?</strong></p>
+                    <p>Platform security offers coherent and comprehensive security that protects from attacks across the entire threat 
+                    landscape and in each layer of enterprise infrastructure and software. The amount of time necessary to detect threats is greatly reduced. 
+                    Organizations obtain increased visibility into the security posture.</p>
+                </div>
+                <div class="content-panel" id="os">
+                    <h3>What is an Operating System</h3>
+                    <p>An operating system (OS) is the program that, after being initially loaded into the computer by a boot program, manages all of the other application programs 
+                    in a computer. The application programs make use of the operating system by making requests for services through a defined application program interface (API).</p>
+
+                    <h3>Different Types of Operating Systems to use in Platform Security</h3>
+                    <ul class="feature-list">
+                        <li><strong>Qubes OS</strong></li>
+                        <p>-Qubes OS is a free and open-source desktop operating system focused on security through security by isolation, 
+                        using a Xen hypervisor to run different applications and tasks within separate, isolated virtual machines called qubes.</p>
+                        <p>QubesOS offers many advantages in security over doing this with Windows. In QubesOS, you are not supposed to do anything in dom0</p>
+                        <li><strong>Tails OS</strong></li>
+                            <p>-Tails OS is a free, Debian-based Linux operating system designed for privacy and anonymity, 
+                            booting from a USB drive or DVD to leave no digital trace on the host computer. 
+                            It automatically routes all internet traffic through the Tor network, concealing user location and activities from surveillance and censorship.</p>
+                            <p>NOTE: Using Tails as a daily OS is not recommended. It's design scope is limited to use as needed in its role as a specific use tool.</p>
+                        <li><strong>Whonix</strong></li>
+                                <p>-Whonix is an anonymous operating system that runs like an app and routes all Internet traffic through the Tor anonymity network. 
+                                    It offers privacy protection and anonymity online and is available for all major operating systems. Whonix handles all your activity in a virtual machine and forces all 
+                                    Internet traffic through the Tor network to provide the strongest protection of your IP address.</p>
+                        <li><strong>Open BSD</strong></li>
+                        <p>-OpenBSD features a robust TCP/IP networking stack, and can be used as a router or wireless access point. 
+                            OpenBSD's security enhancements, built-in cryptography, and packet filter make it suitable for 
+                            security purposes such as firewalls, intrusion-detection systems, and VPN gateways.</p>
+                        <p>OpenBSD is thought of as the most secure UNIX-like operating system by many security professionals, 
+                        as a result of the never-ending comprehensive source code audit.</p>
+                    </ul>
+                </div>
+                <div class="content-panel" id="malware">
+                    <h3>Different Types of Malwares and Cyber Threats to Avoid</h3>
+                    <p><strong>What is Malware</strong></p>
+                    <p>-Malware, short for malicious software, refers to any intrusive software developed by cybercriminals (often called hackers) 
+                    to steal data and damage or destroy computers and computer systems.</p>
+                    <p><strong>What is a Cyber Threats</strong></p>
+                        <p>A cyber or cybersecurity threat is a malicious act that seeks to damage data, steal data, or disrupt digital life in general. 
+                        Cyber threats include computer viruses, data breaches, Denial of Service (DoS) attacks, and other attack vectors.</p>
+                    <h3>Diffent Types of Malware</h3>
+                    <ul class="feature-list">
+                        <li>Worms</li>
+                        <li>Rootkkits</li>
+                        <li>Viruses</li>
+                        <li>Trojans</li>
+                        <li>Keylogger</li>
+                    </ul>
+                    <h3>Different Types of Cyber Threats</h3>
+                    <ul class="feature-list">
+                        <li>Phishing</li>
+                        <li>Man-in-the-Middle</li>
+                        <li>Distributed Denial of Service</li>
+                        <li>Zero Day Exploit</li>
+                        <li>Ransomware</li>
+                    </ul>
+                </div>
+                <div class="content-panel" id="SecPlatform">
+                    <h3>What is a Security Platform?</h3>
+                    <p><strong>Security Platform</strong></p>
+                    <p>A security platform integrates vendor-specific functions—and often third-party products—to help optimize operational 
+                    efficiency by automating repetitive tasks and workflows in order to produce better, faster outcomes.</p>
+                    <p><strong>How does a security platform work?</strong></p>
+                    <p>Security platforms integrate vendor-specific functions as well as third-party functions, allowing security teams to work more efficiently, 
+                    faster, and more collaboratively by simplifying integration, improving visibility, sharing intelligence, and automating workflows across endpoints, 
+                    cloud, network, and applications.</p>
+                    <p><strong>How do you benefit from a Security Platform?</strong></p>
+                    <p>Security platforms reduce operational costs, help optimize operational efficiency and precision, speed up responsiveness to security 
+                    changes with lower overhead, improve business security, and help maintain business continuity.</p>
+
+                    <h3>Types of Security Platforms</h3>
+                    <ul class="feature-list">
+                        <li><strong>Platform based on a Solution</strong></li>
+                        <p>-A common example of a platform based on a solution is an endpoint protection platform (EPP), which prevents 
+                        file-based malware and unwanted or malicious applications from running and causing harm.</p>
+                        <li><strong>Platform based on a SIEM or SOAR</strong></li>
+                            <p>-Platforms based on SIEM (security information and event management) technology offer visibility and meaningful insights by 
+                            collecting, aggregating, and analyzing information from different sources.</p>
+                            <p>An upcoming platform in the security industry is based on SOAR (security orchestration, automation, and response) technology. 
+                            SOAR platforms are similar to SIEMs in that they aggregate, correlate, and analyze alerts. However, SOAR technology goes a step further by 
+                            integrating threat intelligence and automating incident investigation and response workflows based on playbooks developed by the security team.</p>
+                        <li><strong>Platform based on a Portfolio</strong></li>
+                        <p>-Portfolio-based platforms make it easier to integrate the products you use now, as well as scale with products you will want to use in the future. 
+                        These platforms strengthen your security across network, endpoints, cloud, and applications. They improve collaboration across shared workflows and 
+                        teams while helping you realize desired outcomes informed by measurable, meaningful metrics and analytics.</p>
+                    </ul>
+                </div>
+                <div class="content-panel" id="networkandcloud">
+                    <h3>What is Network and Cloud Security</h3>
+                    <p><strong>Network Security</strong></p>
+                    <p>Network security is the protection of the underlying networking infrastructure from unauthorized access, misuse, or theft. It involves creating a secure 
+                    infrastructure for devices, applications, users, and applications to work in a secure manner.</p>
+                    <p><strong>How does Network Security work?</strong></p>
+                    <p>Network security combines multiple layers of defenses at the edge and in the network. Each network security layer implements policies and controls. 
+                    Authorized users gain access to network resources, but malicious actors are blocked from carrying out exploits and threats.</p>
+                    <p><strong>Types of Network Security</strong></p>
+                    <ul class="feature-list">
+                        <li><strong>Firewalls</strong></li>
+                        <p>-A firewall is a network security device that monitors incoming and outgoing network traffic and decides whether to allow or block specific traffic 
+                        based on a defined set of security rules. Cisco offers both threat-focused firewalls and unified threat management (UTM) devices. </p>
+                        <li><strong>Workload Security</strong></li>
+                        <p>-Workload security protects workloads moving across different cloud and hybrid environments. These distributed workloads have larger attack surfaces, 
+                        which must be secured without affecting the agility of the business.</p>
+                        <li><strong>VPN</strong></li>
+                            <p>A virtual private network encrypts the connection from an endpoint to a network, often over the internet. Typically, a remote-access VPN uses IPsec 
+                            or Secure Sockets Layer to authenticate the communication between device and network.</p>
+                        <li><strong>Access Control</strong></li>
+                            <p>Not every user should have access to your network. To keep out potential attackers, you need to recognize each user and each device. Then you can 
+                            enforce your security policies. You can block noncompliant endpoint devices or give them only limited access. This process is network access control (NAC).</p>
+                        <li><strong>Behavioral Analytics</strong></li>
+                        <p>To detect abnormal network behavior, you must know what normal behavior looks like. Behavioral analytics tools automatically discern activities that 
+                        deviate from the norm. Your security team can then better identify indicators of compromise that pose a potential problem and quickly remediate threats.</p>
+                    </ul>
+                    <p><strong>Cloud Security</strong></p>
+                    <p>Cloud security is a broad set of technologies, policies, and applications that are applied to defend online IP, services, applications, 
+                    and other data against cyberthreats and malicious activity.</p>
+                    <p><strong>What are the main benefits of cloud security?</strong></p>
+                    <p>Cloud security helps you better manage risks for the way the world works today. It shields users against threats no matter how they access the internet, 
+                    and it secures data and applications in the cloud.</p>
+                    <p><strong>Cloud security can also help:</strong></p>
+                    <ul class="feature-list">
+                        <li>Block threats earlies</li>
+                        <li>Enable a more secure cloud</li>
+                        <li>Secure hybrid and remote work</li>
+                        <li>Extend Protection</li>
+                        <li>Secure at Scale</li>
+                    </ul>
+                </div>
+            <div class="content-panel" id="virtualbox">
+                <h3>What is a Virtual Machine?</h3>
+                <p><strong>Virtual Machine?</strong></p>
+                <p>A Virtual Machine (VM) is a compute resource that uses software instead of a physical computer to run programs and deploy apps. One or more virtual “guest” 
+                machines run on a physical “host” machine. Each virtual machine runs its own operating system and functions separately from the other VMs, even when they are 
+                all running on the same host. This means that, for example, a virtual MacOS virtual machine can run on a physical PC.</p>
+                <p>The virtual machine runs as a process in an application window, similar to any other application, on the operating system of the physical machine. 
+                Key files that make up a virtual machine include a log file, NVRAM setting file, virtual disk file and configuration file.</p>
+                <p><strong>What are virtual machines used for?</strong></p>
+                <p>Virtual machines (VMs) allow a business to run an operating system that behaves like a completely separate computer in an app window on a desktop. 
+                VMs may be deployed to accommodate different levels of processing power needs, to run software that requires a different operating system, or to test 
+                applications in a safe, sandboxed environment.</p>
+                <p>Virtual machines have historically been used for server virtualization, which enables IT teams to consolidate their computing resources and improve efficiency. 
+                Additionally, virtual machines can perform specific tasks considered too risky to carry out in a host environment, such as accessing virus-infected data or 
+                testing operating systems.</p>
+                <p><strong>Advantages of virtual machines</strong></p>
+                <ul class="feature-list">
+                    <li>VMs can run multiple operating system environments on a single physical computer, saving physical space, time and management costs.</li>
+                    <li>Virtual machines support legacy applications, reducing the cost of migrating to a new operating system. For example, a Linux virtual machine running a 
+                    distribution of Linux as the guest operating system can exist on a host server that is running a non-Linux operating system, such as Windows.</li>
+                    <li>VMs can also provide integrated disaster recovery and application provisioning options.</li>
+                </ul>
+                <p><strong>Disadvantages of virtual machines</strong></p>
+                <ul class="feature-list">
+                    <li>Running multiple virtual machines on one physical machine can result in unstable performance if infrastructure requirements are not met.</li>
+                    <li>Virtual machines are less efficient and run slower than a full physical computer. Most enterprises use a combination of physical and virtual 
+                    infrastructure to balance the corresponding advantages and disadvantages.</li>
+                </ul>
+            </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <h2 class="section-title">Conclusion</h2>
+        <div class="about-content">
+            <div class="about-text">
+                <h2>How to further improve Platform Security</h2>
+                <p>In conclusion, to improve platform security, implement a layered defense by continuously monitoring for threats, employing multi-factor authentication (MFA) and 
+                least-privilege access for users, encrypting data both at rest and in transit, conducting regular security assessments like vulnerability scanning and penetration 
+                testing, establishing a robust incident response plan, and ensuring all employees receive regular security awareness training. A zero-trust architecture, which assumes 
+                breach and verifies all access requests, also significantly enhances security. </p>
+                <p>Applying everything that we've learned, we can also avoid data breaches and avoid leaking private information. 
+                Choosing a platform with robust security measures helps prevent data breaches, unauthorized access, compliance violations, 
+                and other security incidents. Integrating security tools into one platform expedites data correlation and analysis, enhancing threat identification speed and accuracy. </p>
+            </div>
+            <div class="about-visual">
+                <div class="about-graphic"></div>
+            </div>
+        </div>
+        
+        <!-- Second row with reversed layout -->
+        <div class="about-content" style="margin-top: 80px;">
+            <div class="about-visual">
+                <div class="about-graphic-alt">
+                    <div class="hexagon"></div>
+                    <div class="hexagon"></div>
+                    <div class="hexagon"></div>
+                </div>
+            </div>
+            <div class="about-text">
+                <h2>Common Uses of Platform Security</h2>
+                <ul>
+                    <li><strong>Threat Hunting</strong></li>
+                    <p>Platform security solutions help advance the SOC with sophisticated detection that combines custom and cloud-native threat intelligence, automated watch lists, 
+                    and simplified integrations with the rest of the security stack. This allows organizations to remain ahead of advanced threats.</p>
+                    <li><strong>Ransomware Protection</strong></li>
+                    <p>Platform security helps stop current and future ransomware variants by constantly monitoring event streams that are related to ransomware attacks. 
+                    Additionally, platform security solutions can trap ransomware of many types including file-less and otherwise unknown versions, all before the payload 
+                    can be deployed. This can prevent attacks on critical files before it can occur.</p>
+                    <li><strong>Anti-Replacement</strong></li>
+                    <p>Since time is of the essence when battling cyber-attacks, platform security reduces the exposure to ongoing threats including advanced and 
+                    persistent threats enabling organizations to move rapidly to ameliorate virus attacks. Platforms like Carbon Black by Broadcom empower enterprises 
+                    with higher levels of control and visibility, enabling remediation on any endpoint from a central console with intuitive commands, presenting a single, unified security stack.</p>
+                </ul>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <h2>Reference used for this Website</h2>
+            <ul>
+                <li>cisco.com</li>
+                <a href="https://www.cisco.com/site/us/en/learn/topics/security/what-is-a-security-platform.html">Security Platform Reference</a> <br>
+                <a href="https://www.cisco.com/site/us/en/learn/topics/security/what-is-network-security.html#jump-anchor-2">Network Secutity Reference</a><br>
+                <a href="https://www.cisco.com/site/us/en/learn/topics/security/what-is-cloud-security.html">Cloud Security Reference</a>
+                <a href="https://www.cisco.com/site/in/en/learn/topics/security/what-is-malware.html">Malware Reference</a>
+                <li>vmware.com</li>
+                <a href="https://www.vmware.com/topics/virtual-machine">Virtual Machine</a>
+                <li>broadcom.com</li>
+                <a href="https://www.vmware.com/topics/virtual-machine">Platform Security Reference</a>
+                <li>privacyguides.org</li>
+                <a href="https://www.privacyguides.org/en/os/qubes-overview/">Qubes OS Reference</a>
+                <li>whonix.org</li>
+                <a href="https://www.whonix.org/wiki/About">Whonix Reference</a>
+                <li>openbsd.org</li>
+                <a href="https://www.openbsd.org/faq/faq1">OpenBSD Reference</a>
+                <li>upguard.com</li>
+                <a href="https://www.upguard.com/blog/cyber-threat">Cyber Threat Reference</a>
+            </ul>
+                
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-links">
+                <a href="#privacy">Privacy Policy</a>
+                <a href="#terms">Terms of Service</a>
+                <a href="#careers">Careers</a>
+            </div>
+            <p class="copyright">© 2025 Platform Security Tips. All rights reserved. Building tomorrow, today.</p>
+        </div>
+    </footer>
+<script src="templatemo-electric-scripts.js"></script>
+</body>
+</html>
